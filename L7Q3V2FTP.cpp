@@ -31,7 +31,7 @@ void LOW(void)
 } 
 int main(void)
 {
-                                         // Statement to set LCD to YELLOW
+                                        
     PIR.fall(&LOW);                       
     segment.clear();                
     segment.setColon(0);            
@@ -40,6 +40,7 @@ int main(void)
     
     for(;;)
     { 
+                                         // Statement to set LCD to YELLOW
        if(bob==1)        
        {  
                                           // Statement to set LCD to PURPLE                             
